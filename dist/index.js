@@ -15663,8 +15663,8 @@ const github_1 = __webpack_require__(9);
 const github_2 = __importDefault(__webpack_require__(9));
 const core_1 = __importDefault(__webpack_require__(338));
 function run() {
-    const context = github_2.default.context;
-    const token = core_1.default.getInput("repo-token");
+    const context = github_2.context;
+    const token = core_1.getInput("repo-token");
     const client = new github_1.GitHub(token);
     const owner = context.repo.owner;
     const repo = context.repo.repo;
