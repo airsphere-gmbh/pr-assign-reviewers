@@ -4,5 +4,10 @@
   "main": "main.js",
   "author": "Maximilian Krüger <Maximilian.Krueger@airsphere.de>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1",
+    "typescript": "^3.8.3"
+  }
 }
