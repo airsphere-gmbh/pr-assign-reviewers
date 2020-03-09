@@ -1,0 +1,8 @@
+{
+  "name": "pr-assign-reviewers",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Maximilian Krüger <Maximilian.Krueger@airsphere.de>",
+  "license": "MIT",
+  "private": false
+}
