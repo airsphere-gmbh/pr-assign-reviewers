@@ -1,0 +1,9 @@
+name: 'Reviewer to Assignee'
+description: 'Assigns all reviewers to the PR'
+inputs:
+  repo-token:  # id of input
+    description: 'Your Github Token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
