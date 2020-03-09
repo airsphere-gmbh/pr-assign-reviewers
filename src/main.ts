@@ -20,7 +20,7 @@ else
   client.pulls.listReviewRequests({
       owner,
       repo,
-      number
+      pull_number: number
   }).then(l => {
       let assignees = l.data.users.map(u => u.login);
       client.issues.addAssignees(
