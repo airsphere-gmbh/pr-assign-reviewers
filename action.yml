@@ -1,5 +1,6 @@
 name: 'Reviewer to Assignee'
 description: 'Assigns all reviewers to the PR'
+author: 'Maximilian Krüger (AirSphere GmbH)'
 inputs:
   repo-token:  # id of input
     description: 'Your Github Token'
